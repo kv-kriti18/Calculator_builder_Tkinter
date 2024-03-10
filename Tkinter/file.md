@@ -253,45 +253,8 @@ Lastly, we need to create an instance of the Calculator class and run the main e
 5. The program keeps running in a loop, waiting for user interactions, until the window is closed.
 
 5. Users can input numbers and perform arithmetic operations by clicking the respective buttons. They can clear the input by clicking 'C' and get the result by clicking '='.
-   
-
-## Testing and Debugging
-
-**Basic Arithmetic Operations**
-Test Input:
-
-**Enter 2+3 =**
-
-![output_lable](./img//1.png)
-
-**Enter 10-5 =**
-
-![output_lable](./img//2.png)
-
-**Enter 4*6 =**
-
-![output_lable](./img//3.png)
-
-**Enter 8/2 =**
-
-![output_lable](./img//4.png)
-
-**Handling Invalid Input:**
-
-Test Input:
-
-**Enter 3///2=** (unsupported operation)
-
-![output_lable](./img/6.png)
-
-**Enter 10/0 =** (division by zero)
-
-![output_lable](./img//5.png)
-
 ## Possible Errors that might occur
-
 ### Division by zero error:
-
 **Problem**: If the user divides by zero, Python will raise a ZeroDivisionError.
 
 **Solution**: Handle division by zero within the try-except block.
